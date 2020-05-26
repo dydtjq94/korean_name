@@ -8,7 +8,7 @@ import {
 
 export const homeCon = (req, res) => {
   console.log(`home`);
-  res.render("home", { pageTitle: "HOME" });
+  res.render("home", { pageTitle: "Korean Name Generator" });
 };
 
 export const submitCon = (req, res) => {
